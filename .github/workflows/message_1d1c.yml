@@ -25,4 +25,4 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run script with secrets0
-        run: python message_sender.py --telegram_url ${{ secrets.MESSAGE_TELEGRAM_BOT_URL }} --chat_id ${{ secrets.CHAT_ID }} --message_thread_id 735
+        run: python main.py --telegram_url ${{ secrets.MESSAGE_TELEGRAM_BOT_URL }} --chat_id ${{ secrets.CHAT_ID }} --message_thread_id 735
