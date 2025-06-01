@@ -28,4 +28,4 @@ def notify_events(events, formatter):
 # Notify categories
 notify_events(today, get_today_events_message)
 notify_events(in7week, get_notify_in7days_message)
-notify_events(new, get_notify_new_events_message)
+# notify_events(new, get_notify_new_events_message)
