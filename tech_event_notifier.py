@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 import os
 
-EVENTS_URL = "https://raw.githubusercontent.com/FOSSUChennai/tamilnadu.tech/refs/heads/main/src/data/events.json"
+EVENTS_URL = "https://raw.githubusercontent.com/FOSSUChennai/Communities/refs/heads/main/src/data/events.json"
 LOCAL_EVENTS_FILE = "events_yesterday.json"
 
 
